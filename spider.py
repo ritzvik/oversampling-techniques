@@ -15,7 +15,7 @@ class attributes_data(object):
 f=open(sys.argv[1])
 
 #change below parameters according to requirment
-YNcolumn = 35	#column containing Y/N. This column should be last column of csv file.
+YNcolumn = 36	#column containing Y/N. This column should be last column of csv file.
 ReasonColumn = -1	#Set this variable -1 if there is no column for reason.
 heading_present = 1	# 1 if heading is present in csv file, 0 if not present.
 K = 105 #Value of k in KNN
@@ -25,6 +25,7 @@ relabel = 1 #1 for Yes, 0 for No.
 
 indices = range(0,YNcolumn)	#numbers in indices list should represent columns of float type
 original = []
+YNcolumn = YNcolumn-1
 if heading_present:
 	heading = f.readline()
 
