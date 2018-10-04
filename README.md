@@ -27,3 +27,6 @@ Other variables can be changed below the comment "#change below parameters accor
 File Usage : python3 spider.py <input.csv>
 
 Output : k-r-a0.csv, k-r-a1.csv, k-r-a2.csv where a0, a1 and a2 represent no aplification, weak amplification and strong amplification respectively.
+
+
+#### A sample file named 'sample.csv' is uploaded for refernce. 
